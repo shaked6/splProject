@@ -12,4 +12,4 @@ add_executable(splProject
         src/Main.cpp
         src/User.cpp
         src/Session.cpp
-        src/User.cpp src/Session.cpp)
+        src/Action.cpp src/Watchable.cpp)

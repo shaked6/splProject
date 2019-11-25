@@ -5,7 +5,6 @@
 #include <unordered_map>
 #include <string>
 #include "Action.h"
-
 class User;
 class Watchable;
 
@@ -14,6 +13,8 @@ public:
     Session(const std::string &configFilePath);
     ~Session();
     void start();
+     User* getActiveUser() const;
+     std::vector<Watchable*> getContent() const;
 private:
     std::vector<Watchable*> content;
     std::vector<BaseAction*> actionsLog;

@@ -123,6 +123,33 @@ splProject/fast:
 	$(MAKE) -f CMakeFiles/splProject.dir/build.make CMakeFiles/splProject.dir/build
 .PHONY : splProject/fast
 
+src/Action.o: src/Action.cpp.o
+
+.PHONY : src/Action.o
+
+# target to build an object file
+src/Action.cpp.o:
+	$(MAKE) -f CMakeFiles/splProject.dir/build.make CMakeFiles/splProject.dir/src/Action.cpp.o
+.PHONY : src/Action.cpp.o
+
+src/Action.i: src/Action.cpp.i
+
+.PHONY : src/Action.i
+
+# target to preprocess a source file
+src/Action.cpp.i:
+	$(MAKE) -f CMakeFiles/splProject.dir/build.make CMakeFiles/splProject.dir/src/Action.cpp.i
+.PHONY : src/Action.cpp.i
+
+src/Action.s: src/Action.cpp.s
+
+.PHONY : src/Action.s
+
+# target to generate assembly for a file
+src/Action.cpp.s:
+	$(MAKE) -f CMakeFiles/splProject.dir/build.make CMakeFiles/splProject.dir/src/Action.cpp.s
+.PHONY : src/Action.cpp.s
+
 src/Main.o: src/Main.cpp.o
 
 .PHONY : src/Main.o
@@ -204,6 +231,33 @@ src/User.cpp.s:
 	$(MAKE) -f CMakeFiles/splProject.dir/build.make CMakeFiles/splProject.dir/src/User.cpp.s
 .PHONY : src/User.cpp.s
 
+src/Watchable.o: src/Watchable.cpp.o
+
+.PHONY : src/Watchable.o
+
+# target to build an object file
+src/Watchable.cpp.o:
+	$(MAKE) -f CMakeFiles/splProject.dir/build.make CMakeFiles/splProject.dir/src/Watchable.cpp.o
+.PHONY : src/Watchable.cpp.o
+
+src/Watchable.i: src/Watchable.cpp.i
+
+.PHONY : src/Watchable.i
+
+# target to preprocess a source file
+src/Watchable.cpp.i:
+	$(MAKE) -f CMakeFiles/splProject.dir/build.make CMakeFiles/splProject.dir/src/Watchable.cpp.i
+.PHONY : src/Watchable.cpp.i
+
+src/Watchable.s: src/Watchable.cpp.s
+
+.PHONY : src/Watchable.s
+
+# target to generate assembly for a file
+src/Watchable.cpp.s:
+	$(MAKE) -f CMakeFiles/splProject.dir/build.make CMakeFiles/splProject.dir/src/Watchable.cpp.s
+.PHONY : src/Watchable.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -213,6 +267,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... splProject"
 	@echo "... edit_cache"
+	@echo "... src/Action.o"
+	@echo "... src/Action.i"
+	@echo "... src/Action.s"
 	@echo "... src/Main.o"
 	@echo "... src/Main.i"
 	@echo "... src/Main.s"
@@ -222,6 +279,9 @@ help:
 	@echo "... src/User.o"
 	@echo "... src/User.i"
 	@echo "... src/User.s"
+	@echo "... src/Watchable.o"
+	@echo "... src/Watchable.i"
+	@echo "... src/Watchable.s"
 .PHONY : help
 
 

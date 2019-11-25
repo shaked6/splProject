@@ -4,9 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
+  "/home/shaked/CLionProjects/splProject/src/Action.cpp" "/home/shaked/CLionProjects/splProject/cmake-build-debug/CMakeFiles/splProject.dir/src/Action.cpp.o"
   "/home/shaked/CLionProjects/splProject/src/Main.cpp" "/home/shaked/CLionProjects/splProject/cmake-build-debug/CMakeFiles/splProject.dir/src/Main.cpp.o"
   "/home/shaked/CLionProjects/splProject/src/Session.cpp" "/home/shaked/CLionProjects/splProject/cmake-build-debug/CMakeFiles/splProject.dir/src/Session.cpp.o"
   "/home/shaked/CLionProjects/splProject/src/User.cpp" "/home/shaked/CLionProjects/splProject/cmake-build-debug/CMakeFiles/splProject.dir/src/User.cpp.o"
+  "/home/shaked/CLionProjects/splProject/src/Watchable.cpp" "/home/shaked/CLionProjects/splProject/cmake-build-debug/CMakeFiles/splProject.dir/src/Watchable.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/shaked/CLionProjects/splProject/include/Action.h
+string
+-
+iostream
+-
+
+/home/shaked/CLionProjects/splProject/include/Session.h
+vector
+-
+unordered_map
+-
+string
+-
+Action.h
+/home/shaked/CLionProjects/splProject/include/Action.h
+
+/home/shaked/CLionProjects/splProject/src/Action.cpp
+
+/home/shaked/CLionProjects/splProject/src/Main.cpp
+iostream
+-
+../include/Session.h
+/home/shaked/CLionProjects/splProject/include/Session.h
+
+/home/shaked/CLionProjects/splProject/src/Session.cpp
+
+/home/shaked/CLionProjects/splProject/src/User.cpp
+

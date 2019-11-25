@@ -99,6 +99,9 @@
 		<Unit filename="/home/shaked/CLionProjects/splProject/include/json.hpp">
 			<Option target="splProject"/>
 		</Unit>
+		<Unit filename="/home/shaked/CLionProjects/splProject/src/Action.cpp">
+			<Option target="splProject"/>
+		</Unit>
 		<Unit filename="/home/shaked/CLionProjects/splProject/src/Main.cpp">
 			<Option target="splProject"/>
 		</Unit>
@@ -106,6 +109,9 @@
 			<Option target="splProject"/>
 		</Unit>
 		<Unit filename="/home/shaked/CLionProjects/splProject/src/User.cpp">
+			<Option target="splProject"/>
+		</Unit>
+		<Unit filename="/home/shaked/CLionProjects/splProject/src/Watchable.cpp">
 			<Option target="splProject"/>
 		</Unit>
 		<Unit filename="/home/shaked/CLionProjects/splProject/CMakeLists.txt">
